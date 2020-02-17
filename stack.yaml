@@ -1,0 +1,11 @@
+resolver: lts-14.13
+
+packages:
+  - .
+  - ../command-line-tweeter
+
+extra-deps:
+  - readme-lhs-0.2.1
+  # - tweet-hs-1.0.2.1
+  - composition-prelude-2.0.5.0
+  - htoml-megaparsec-2.1.0.3
